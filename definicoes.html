@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Definições</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Definições</h1>
+
+    <div class="categorias">
+      <button class="categoria-btn" onclick="mostrarFavoritas()">
+        <img src="assets/icons/favoritos.png" alt="Favoritas" />
+        <span>Frases Favoritas</span>
+      </button>
+    </div>
+
+    <div id="favoritas-container" style="display: none;">
+      <h2>Frases Favoritas</h2>
+      <div id="lista-favoritas"></div>
+    </div>
+
+    <br>
+    <div class="botoes-frase">
+      <button onclick="voltarInicio()">🏠 Voltar ao Início</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 CommunicAid. Trabalho realizado por: Eduardo Ribeiro, al77250.</p>
+    <p>
+      <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+    </p>
+  </footer>
+
+  <script src="js/aplicarpreferencias.js"></script>
+  <script src="js/definicoes.js"></script>
+</body>
+</html>

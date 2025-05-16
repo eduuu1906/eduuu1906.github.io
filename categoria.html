@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CommunicAid - Categoria</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1 id="titulo-categoria">Categoria</h1>
+
+    <div id="simbolos-container" class="simbolos"></div>
+
+    <div id="frase-container">
+      <h2>Frase:</h2>
+      <p id="frase"></p>
+
+      <div class ="botoes-frase">
+      <button onclick="falarFrase()">🔊 Falar</button>
+      <button onclick="apagarUltima()">↩️ Limpar última frase/palavra</button>
+      <button onclick="limparFrase()">🗑️ Limpar tudo</button>
+      <button onclick="guardarFraseFavorita()">⭐ Guardar Frase</button>
+      <button onclick="history.back()" class="back-btn">
+        🔙 Voltar Atrás
+      </button>
+
+
+      
+    </div>
+    </div>
+  </main>
+  <script src="js/aplicarpreferencias.js"></script>
+  <script src="js/categoria.js"></script>
+</body>
+</html>

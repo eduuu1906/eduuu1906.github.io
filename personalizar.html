@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CommunicAid - Personalizar</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Personalizar</h1>
+
+    <div class="menu-container">
+      <button onclick="mostrarSecao('secao-cor')">
+        <img src="assets/icons/cor.png" alt="Cor de Fundo" />
+        <span>Cor de Fundo</span>
+      </button>
+      <button onclick="mostrarSecao('secao-escuro')">
+        <img src="assets/icons/modoescuro.png" alt="Modo Escuro" />
+        <span>Modo Escuro</span>
+      </button>
+      <button onclick="mostrarSecao('secao-tamanho')">
+        <img src="assets/icons/tamanho.png" alt="Tamanho dos Botões" />
+        <span>Tamanho</span>
+      </button>
+      <button onclick="mostrarSecao('secao-simbolo')">
+        <img src="assets/icons/adicionar.png" alt="Adicionar Símbolo" />
+        <span>Adicionar Símbolo</span>
+      </button>
+    </div>
+
+    <section id="secao-cor" class="personalizar-bloco" style="display:none;">
+      <h2>Cor de fundo</h2>
+      <input type="color" id="cor-fundo" />
+    </section>
+
+    <section id="secao-escuro" class="personalizar-bloco" style="display:none;">
+      <h2>Modo Escuro</h2>
+      <label class="switch">
+        <input type="checkbox" id="modo-escuro">
+        <span class="slider round"></span>
+      </label>
+    </section>
+
+    <section id="secao-tamanho" class="personalizar-bloco" style="display:none;">
+      <h2>Tamanho dos botões</h2>
+      <div class="tamanho-opcoes">
+        <label><input type="radio" name="tamanho" value="pequeno"> Pequeno</label>
+        <label><input type="radio" name="tamanho" value="medio"> Médio</label>
+        <label><input type="radio" name="tamanho" value="grande"> Grande</label>
+      </div>
+    </section>
+
+    <section id="secao-simbolo" class="personalizar-bloco" style="display:none;">
+      <h2>Adicionar Símbolo Personalizado</h2>
+      <form id="form-simbolo">
+        <label>Imagem: <input type="file" id="icone-simbolo" accept="image/*" required /></label><br><br>
+        <label>Texto: <input type="text" id="texto-simbolo" required /></label><br><br>
+        <label>Categoria:
+          <select id="categoria-simbolo" required>
+            <option value="">--Selecionar--</option>
+            <option value="comida">Comida</option>
+            <option value="educacao">Educação</option>
+            <option value="em_casa">Em Casa</option>
+            <option value="emergencia">Emergência</option>
+            <option value="conversa">Conversa</option>
+          </select>
+        </label><br><br>
+        <button type="submit">Adicionar Símbolo</button>
+      </form>
+    </section>
+
+    <div class="botoes-frase">
+      <button onclick="guardarPreferencias()">💾 Guardar Preferências</button>
+      <button onclick="voltarInicio()">🏠 Voltar ao Início</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 CommunicAid. Trabalho realizado por: Eduardo Ribeiro, al77250.</p>
+    <p>
+      <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+    </p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script>
+    document.getElementById("form-simbolo")?.addEventListener("submit", function (e) {
+      e.preventDefault();
+      guardarSimboloPersonalizado();
+    });
+
+    function mostrarSecao(id) {
+      document.querySelectorAll('.personalizar-bloco').forEach(secao => {
+        secao.style.display = 'none';
+      });
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+  <script src="js/aplicarpreferencias.js"></script>
+</body>
+</html>

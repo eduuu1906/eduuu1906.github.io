@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CommunicAid - Conversa</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Conversa</h1>
+
+    <div id="conversa-container" class="simbolos"></div>
+
+    <div id="frase-container">
+      <h2>Frase:</h2>
+      <p id="frase"></p>
+      <button onclick="falarFrase()">🔊 Falar</button>
+      <button onclick="limparFrase()">🗑️ Limpar</button>
+      <button onclick="guardarFraseFavorita()">⭐ Guardar Frase</button>
+
+    </div>
+
+    <br>
+    <button onclick="voltarInicio()">🏠 Voltar ao Início</button>
+  </main>
+
+  <script src="js/aplicarpreferencias.js"></script>
+  <script src="js/conversa.js"></script>
+</body>
+</html>

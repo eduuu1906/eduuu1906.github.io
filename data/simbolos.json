@@ -1,0 +1,230 @@
+{
+    "comida": [
+      { "imagem": "pao.png", "texto": "Quero pão" },
+      { "imagem": "agua.png", "texto": "Quero água" },
+      { "imagem": "sopa.png", "texto": "Quero sopa" },
+      { "imagem": "jacomi.png", "texto": "Já comi" },
+      { "imagem": "estoucheio.png", "texto": "Estou cheio" },
+      { "imagem": "naogosto.png", "texto": "Não gosto disto" }
+
+
+    ],
+    "educacao": [
+      { "imagem": "livro.png", "texto": "Vamos estudar" },
+      { "imagem": "professor.png", "texto": "Onde está o professor?" },
+      { "imagem": "cansado.png", "texto": "Estou cansado" },
+      { "imagem": "ajuda.png", "texto": "Preciso de ajuda" },
+      { "imagem": "pronto.png", "texto": "Estou pronto" },
+      { "imagem": "queroescrever.png", "texto": "Quero escrever" }
+    ],
+    "em_casa": [
+      { "imagem": "tv.png", "texto": "Quero ver televisão" },
+      { "imagem": "banho.png", "texto": "Preciso de tomar banho" },
+      { "imagem": "quarto.png", "texto": "Quero ir para o meu quarto" },
+      { "imagem": "saladeestar.png", "texto": "Quero ir para a sala" },
+      { "imagem": "cozinha.png", "texto": "Quero ir para a cozinha" },
+      { "imagem": "descansar.png", "texto": "Quero descansar" }
+
+
+
+    ],
+    "conversa": [
+        { "imagem": "ola.png", "texto": "Olá" },
+        { "imagem": "sim.png", "texto": "Sim" },
+        { "imagem": "nao.png", "texto": "Não" },
+        { "imagem": "obrigado.png", "texto": "Obrigado" },
+        { "imagem": "por-favor.png", "texto": "Por favor" },
+        { "imagem": "desculpa.png", "texto": "Desculpa" },
+        { "imagem": "nome.png", "texto": "Como te chamas?" },
+        { "imagem": "conversar.png", "texto": "Quero conversar" },
+        { "imagem": "ajuda.png", "texto": "Podes ajudar-me?" },
+        { "imagem": "feliz.png", "texto": "Estou feliz" },
+        { "imagem": "triste.png", "texto": "Estou triste" },
+        { "imagem": "fome.png", "texto": "Tenho fome" },
+        { "imagem": "frio.png", "texto": "Tenho frio" },
+        { "imagem": "tudobem.png", "texto": "Tudo bem?" },
+        { "imagem": "quero.png", "texto": "Quero" },
+        { "imagem": "naosei.png", "texto": "Não sei" },
+        { "imagem": "eu.png", "texto": "Eu" },
+        { "imagem": "tu.png", "texto": "Tu" },
+        { "imagem": "preciso.png", "texto": "Preciso" },
+        { "imagem": "sair.png", "texto": "Sair" },
+        { "imagem": "ver.png", "texto": "Ver" },
+        { "imagem": "ir.png", "texto": "Ir" },
+        { "imagem": "gosto.png", "texto": "Gosto" },
+        { "imagem": "isso.png", "texto": "Isso" },
+        { "imagem": "isso.png", "texto": "Aquilo" },
+        { "imagem": "ter.png", "texto": "Ter" }
+
+      ],
+
+    "emergencia": [
+        { "imagem": "ajuda.png", "texto": "Preciso de ajuda" },
+        { "imagem": "socorro.png", "texto": "Socorro!" },
+        { "imagem": "perdido.png", "texto": "Estou perdido" },
+        { "imagem": "doente.png", "texto": "Estou doente" },
+        { "imagem": "medico.png", "texto": "Chamar um médico" },
+        { "imagem": "urgente.png", "texto": "É urgente" },
+        { "imagem": "maldisposto.png", "texto": "Estou mal disposto" },
+        { "imagem": "sangue.png", "texto": "Estou a sangrar" }
+],
+
+    "lazer" : [
+        { "imagem": "desenhar.png", "texto": "Quero desenhar" },
+        { "imagem": "videojogos.png", "texto": "Quero jogar videojogos" },
+        { "imagem": "passearcao.png", "texto": "Vamos passear o cão" }
+
+
+    ],
+
+    "pequeno_almoco": [
+        { "imagem": "leite.png", "texto": "Quero leite" },
+        { "imagem": "cereais.png", "texto": "Quero cereais" }
+      ],
+    "almoco": [
+        { "imagem": "sopa.png", "texto": "Quero sopa" },
+        { "imagem": "carne.png", "texto": "Quero carne" }
+],
+    "lanche": [
+        { "imagem": "sumo.png", "texto": "Quero sumo" },
+        { "imagem": "bolacha.png", "texto": "Quero bolacha" }
+],
+    "jantar": [
+        { "imagem": "peixe.png", "texto": "Quero peixe" },
+        { "imagem": "salada.png", "texto": "Quero salada" }
+    ],
+    "fruta": [
+      { "imagem": "maçã.png", "texto": "Quero maçã" },
+      { "imagem": "banana.png", "texto": "Quero banana" },
+      { "imagem": "laranja.png", "texto": "Quero laranja" },
+      { "imagem": "pera.png", "texto": "Quero pêra" },
+      { "imagem": "uva.png", "texto": "Quero uva" },
+      { "imagem": "manga.png", "texto": "Quero manga" },
+      { "imagem": "kiwi.png", "texto": "Quero kiwi" },
+      { "imagem": "morango.png", "texto": "Quero morango" },
+      { "imagem": "cereja.png", "texto": "Quero cereja" },
+      { "imagem": "pessego.png", "texto": "Quero pêssego" },
+      { "imagem": "ananas.png", "texto": "Quero ananás" },
+      { "imagem": "melao.png", "texto": "Quero melão" },
+      { "imagem": "coco.png", "texto": "Quero coco" },
+      { "imagem": "framboesa.png", "texto": "Quero framboesa" },
+      { "imagem": "amora.png", "texto": "Quero amora" },
+      { "imagem": "mirtilo.png", "texto": "Quero mirtilo" }
+  ],
+  "vegetais": [
+    { "imagem": "cenoura.png", "texto": "Quero cenoura" },
+    { "imagem": "batata.png", "texto": "Quero batata" },
+    { "imagem": "brocolos.png", "texto": "Quero brócolos" },
+    { "imagem": "tomate.png", "texto": "Quero tomate" },
+    { "imagem": "cebola.png", "texto": "Quero cebola" },
+    { "imagem": "alho.png", "texto": "Quero alho" },
+    { "imagem": "alface.png", "texto": "Quero alface" },
+    { "imagem": "pepino.png", "texto": "Quero pepino" },
+    { "imagem": "pimento.png", "texto": "Quero pimento" },
+    { "imagem": "courgette.png", "texto": "Quero courgette" },
+    { "imagem": "ervilhas.png", "texto": "Quero ervilhas" },
+    { "imagem": "feijao.png", "texto": "Quero feijão" },
+    { "imagem": "beterraba.png", "texto": "Quero beterraba" },
+    { "imagem": "abobora.png", "texto": "Quero abóbora" },
+    { "imagem": "espargos.png", "texto": "Quero espargos" },
+    { "imagem": "rabanete.png", "texto": "Quero rabanete" },
+    { "imagem": "nabo.png", "texto": "Quero nabo" },
+    { "imagem": "agrião.png", "texto": "Quero agrião" }
+    
+],
+  "bebida": [
+    { "imagem": "sumo.png", "texto": "Quero sumo" },
+    { "imagem": "cha.png", "texto": "Quero chá" },
+    { "imagem": "cafe.png", "texto": "Quero café" },
+    { "imagem": "refrigerante.png", "texto": "Quero refrigerante" },
+    { "imagem": "sangria.png", "texto": "Quero sangria" },
+    { "imagem": "vinho.png", "texto": "Quero vinho" },
+    { "imagem": "cerveja.png", "texto": "Quero cerveja" },
+    { "imagem": "batido.png", "texto": "Quero batido" }, 
+    { "imagem": "limonada.png", "texto": "Quero limonada" },
+    { "imagem": "agua_gasosa.png", "texto": "Quero água com gás" },
+    { "imagem": "agua_com_gelo.png", "texto": "Quero água com gelo" },
+    { "imagem": "agua_com_acucar.png", "texto": "Quero água com açucar" }
+  ],
+   
+"sobremesas": [
+  { "imagem": "leitecreme.png", "texto": "Quero leite creme" },
+  { "imagem": "gelado.png", "texto": "Quero gelado" },
+  { "imagem": "tarte.png", "texto": "Quero tarte" },
+  { "imagem": "pudim.png", "texto": "Quero pudim" },
+  { "imagem": "biscoito.png", "texto": "Quero biscoito" },
+  { "imagem": "doces.png", "texto": "Quero doces" },
+  { "imagem": "chocolate.png", "texto": "Quero chocolate" },
+  { "imagem": "pavlova.png", "texto": "Quero pavlova" },
+  { "imagem": "mousse.png", "texto": "Quero mousse" },
+  { "imagem": "brownie.png", "texto": "Quero brownie" },
+  { "imagem": "tiramisu.png", "texto": "Quero tiramisu" },
+  { "imagem": "crepe.png", "texto": "Quero crepe" }
+],
+    "tipodedor": [
+        { "imagem": "dorcabeca.png", "texto": "Tenho dor de cabeça" },
+        { "imagem": "dorbarriga.png", "texto": "Tenho dor de barriga" },
+        { "imagem": "dorcorpo.png", "texto": "Tenho dor no corpo" },
+        { "imagem": "dorperna.png", "texto": "Tenho dor na perna" }
+],
+    "materiais" : [
+        { "imagem": "cadexercicios.png", "texto": "Quero um caderno" },
+        { "imagem": "caneta.png", "texto": "Quero uma caneta" },
+        { "imagem": "cola.png", "texto": "Quero cola" },
+        { "imagem": "tesoura.png", "texto": "Quero uma tesoura" },
+        { "imagem": "lapis.png", "texto": "Preciso de um lápis" },
+        { "imagem": "borracha.png", "texto": "Preciso de uma borracha" }
+    ],
+
+    "escola": [
+        { "imagem": "turma.png", "texto": "Quero ir para a sala de aula" },
+        { "imagem": "auxiliar.png", "texto": "Quero falar com o auxiliar" },
+        { "imagem": "casadebanho.png", "texto": "Posso ir à casa de banho?" },
+        { "imagem": "sala.png", "texto": "Posso sair da sala?" }
+  
+],
+    "atividades": [
+        { "imagem": "trabalhos.png", "texto": "Fazer trabalhos de casa" }
+],
+
+    "higiene": [
+        { "imagem": "escovar.png", "texto": "Quero escovar os dentes" },
+        { "imagem": "lavar_maos.png", "texto": "Quero lavar as mãos" }
+      ],
+    "desportos": [
+        { "imagem": "futebol.png", "texto": "Quero jogar futebol" },
+        { "imagem": "basquetebol.png", "texto": "Quero jogar basquetebol" },
+        { "imagem": "volei.png", "texto": "Quero jogar voleibol" },
+        { "imagem": "andebol.png", "texto": "Quero jogar andebol" },
+        { "imagem": "tenis.png", "texto": "Quero jogar ténis" },
+        { "imagem": "badminton.png", "texto": "Quero jogar badminton" },
+        { "imagem": "hoquei.png", "texto": "Quero jogar hóquei" },
+        { "imagem": "futsal.png", "texto": "Quero jogar futsal" },
+        { "imagem": "natacao.png", "texto": "Quero nadar" },
+        { "imagem": "correr.png", "texto": "Quero correr" },
+        { "imagem": "bike.png", "texto": "Quero andar de bicicleta" },
+        { "imagem": "skate.png", "texto": "Quero andar de skate" },
+        { "imagem": "escalada.png", "texto": "Quero escalar" }
+    
+  ],
+  "musica": [
+    { "imagem": "cantar.png", "texto": "Quero cantar" },
+    { "imagem": "tocar.png", "texto": "Quero tocar um instrumento" },
+    { "imagem": "dançar.png", "texto": "Quero dançar" },
+    { "imagem": "jazz.png", "texto": "Quero ouvir jazz" },
+    { "imagem": "rock.png", "texto": "Quero ouvir rock" },
+    { "imagem": "pop.png", "texto": "Quero ouvir pop" },
+    { "imagem": "classica.png", "texto": "Quero ouvir música clássica" },
+    { "imagem": "hiphop.png", "texto": "Quero ouvir hip hop" },
+    { "imagem": "rap.png", "texto": "Quero ouvir rap" },
+    { "imagem": "concert.png", "texto": "Quero assistir a um concerto" },
+    { "imagem": "festival.png", "texto": "Quero ir a um festival" }
+]
+
+
+
+
+
+
+  }
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CommunicAid - Início</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>CommunicAid</h1>
+    <div class="menu-container">
+      <button onclick="irPara('comunicar.html')">
+        <img src="assets/icons/comunicar.png" alt="Comunicar" />
+        <span>Comunicar</span>
+      </button>
+      <button onclick="irPara('personalizar.html')">
+        <img src="assets/icons/personalizar.png" alt="Personalizar" />
+        <span>Personalizar</span>
+      </button>
+      <button onclick="irPara('definicoes.html')">
+        <img src="assets/icons/definicoes.png" alt="Definições" />
+        <span>Definições</span>
+      </button>
+    </div>
+  </main>
+
+  <script>
+    function irPara(pagina) {
+      window.location.href = pagina;
+    }
+  </script>
+  <footer>
+    <p>© 2025 CommunicAid. Trabalho realizado por: Eduardo Ribeiro, al77250.</p>
+    <p>
+      <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+    </p>
+  </footer>
+  <script src="js/aplicarpreferencias.js"></script>
+</body>
+</html>

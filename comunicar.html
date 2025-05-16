@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CommunicAid - Comunicar</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>COMUNICAR</h1>
+    <div id="categorias-container" class="categorias"></div>
+    <div class="botoes-frase">
+      <button onclick="voltarInicio()">🏠 Voltar ao Início</button>
+    </div>
+      </main>
+  <script src="js/aplicarpreferencias.js"></script>
+
+  
+  <script src="js/main.js"></script>
+
+  <script>
+    const simNao = [
+      { nome: "Sim", imagem: "assets/icons/sim.png" },
+      { nome: "Não", imagem: "assets/icons/nao.png" },
+    ];
+    simNao.forEach(item => {
+      const btn = document.createElement("button");
+      btn.className = "categoria-btn";
+      btn.innerHTML = `<img src="${item.imagem}" alt="${item.nome}"><span>${item.nome}</span>`;
+      btn.onclick = () => falar(item.nome);
+      document.getElementById("categorias-container").appendChild(btn);
+    });
+  </script>
+  
+
+<script>
+  function falar(texto) {
+    const synth = window.speechSynthesis;
+    const utterance = new SpeechSynthesisUtterance(texto);
+    synth.speak(utterance);
+  }
+</script>
+
+
+
+  <script>
+    function voltarInicio() {
+      window.location.href = "index.html";
+    }
+  </script>
+    <footer>
+      <p>© 2025 CommunicAid. Trabalho realizado por: Eduardo Ribeiro, al77250.</p>
+      <p>
+        <p></p>
+        <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+      </p>
+      </p>
+</body>
+</html>
